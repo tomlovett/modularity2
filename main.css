@@ -25,3 +25,44 @@
 .v_align_child p, .v_align_child li {
 	line-height: initial;
 }
+
+/*HORIZONTAL LIST*/
+/*               */
+.h_list {
+	-webkit-padding-start: 0px;
+}
+
+.h_list li {
+	display: inline;
+	float: left;
+}
+
+/*BUTTONS*/
+/*		 */
+a, button, input {
+	text-decoration: none;
+	color: white;
+	background-color: #ff8080;
+	border-radius: 8px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 40px;
+	border: none;
+}
+
+#buy_now {
+	vertical-align: middle;
+	font-size: 24px;
+	padding: 15px 50px;
+}
+
+#learn_more {
+	font-size: 16px;
+	padding: 10px 40px;
+}
+
+#OK {
+	font-size: 12px;
+	padding: 5px;
+}
+
