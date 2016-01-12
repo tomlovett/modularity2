@@ -1,0 +1,10 @@
+/*HORIZONTALLY SPACED*/
+.t_align_parent {
+	text-align: center;
+}
+
+.h_spaced-child {
+	display: inline;
+	margin: auto;
+	padding: 20px;
+}
