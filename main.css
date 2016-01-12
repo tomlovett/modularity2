@@ -13,3 +13,15 @@
 
 /*VERTICALLY SPACED*/
 /*                 */
+.v_align_parent {
+	height: 300px;
+	line-height: 300px;
+}
+
+.v_align_child {
+	vertical-align: middle;
+}
+
+.v_align_child p, .v_align_child li {
+	line-height: initial;
+}
