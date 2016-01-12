@@ -1,10 +1,15 @@
 /*HORIZONTALLY SPACED*/
+/*                   */ 
 .t_align_parent {
 	text-align: center;
 }
 
-.h_spaced-child {
-	display: inline;
-	margin: auto;
-	padding: 20px;
+.h_spaced_child {
+	display: inline-block;
+	margin: 0px 20px;
+	text-align: initial;
+	vertical-align: top;
 }
+
+/*VERTICALLY SPACED*/
+/*                 */
