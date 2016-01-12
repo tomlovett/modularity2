@@ -70,6 +70,8 @@ a, button, input {
 /*			*/
 .navigation li {
 	display: inline-block;
+	margin: 0px;
+	float: left;
 }
 
 .navigation a {
@@ -77,8 +79,10 @@ a, button, input {
 	margin: 0px;
 }
 
-.navigation:hover a {
-	background-color:grey;
+.navigation a:hover {
+	background-color: white;
+	color: #ff8080;
+	text-decoration: initial;
 }
 
 .navigation {
@@ -88,7 +92,41 @@ a, button, input {
 #engine {
 	border-radius: 8px 0px 0px 8px;
 }
-
 #caboose {
 	border-radius: 0px 8px 8px 0px;
+}
+
+/*PAGINATION*/
+/*			*/
+.pagination {
+	-webkit-padding-start: inherit;
+	float: left;
+}
+
+.pagination a {
+	background-color: inherit;
+	color: #ff8080;
+	border-bottom: 3px solid #ff8080;
+	border-radius: initial;
+	width: 25px;
+	padding: 0px 0px 5px 0px;
+}
+
+.pagination .button {
+	border-bottom: none;
+	width: 50px;
+}
+
+.pagination li {
+	display: inline-block;
+	margin: 0px 3px;
+}
+
+.pagination span {
+	display: inline-block;
+	text-align: center;
+	color: lightgrey;
+	width: 25px;
+	border-bottom: 3px solid lightgrey;
+	padding: 0px 0px 5px 0px;
 }
