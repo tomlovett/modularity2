@@ -1,5 +1,5 @@
 /*HORIZONTALLY SPACED*/
-/*                   */ 
+/*Section 6          */ 
 .t_align_parent {
 	text-align: center;
 }
@@ -12,7 +12,7 @@
 }
 
 /*VERTICALLY SPACED*/
-/*                 */
+/*Section 7        */
 .v_align_parent {
 	height: 300px;
 	line-height: 300px;
@@ -27,7 +27,7 @@
 }
 
 /*HORIZONTAL LIST*/
-/*               */
+/*Section 8      */
 .h_list {
 	-webkit-padding-start: 0px;
 }
@@ -38,7 +38,7 @@
 }
 
 /*BUTTONS*/
-/*		 */
+/*Sect 9 */
 a, button, input {
 	text-decoration: none;
 	color: white;
@@ -67,7 +67,7 @@ a, button, input {
 }
 
 /*NAVIGATION*/
-/*			*/
+/*Section 10*/
 .navigation li {
 	display: inline-block;
 	margin: 0px;
@@ -97,7 +97,7 @@ a, button, input {
 }
 
 /*PAGINATION*/
-/*			*/
+/*Section 11*/
 .pagination {
 	-webkit-padding-start: inherit;
 	float: left;
@@ -129,4 +129,23 @@ a, button, input {
 	width: 25px;
 	border-bottom: 3px solid lightgrey;
 	padding: 0px 0px 5px 0px;
+}
+
+/*COMMENT STREAM*/
+/*Section 12	*/
+time {
+	color: grey;
+	font-size: .75em;
+}
+
+.avatar {
+	float: left;
+	overflow: hidden;
+}
+
+.message {
+	overflow: hidden;
+}
+
+p {
 }
