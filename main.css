@@ -66,3 +66,29 @@ a, button, input {
 	padding: 5px;
 }
 
+/*NAVIGATION*/
+/*			*/
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.navigation:hover a {
+	background-color:grey;
+}
+
+.navigation {
+	-webkit-padding-start: inherit;
+}
+
+#engine {
+	border-radius: 8px 0px 0px 8px;
+}
+
+#caboose {
+	border-radius: 0px 8px 8px 0px;
+}
