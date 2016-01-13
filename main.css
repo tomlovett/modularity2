@@ -133,14 +133,9 @@ a, button, input {
 
 /*COMMENT STREAM*/
 /*Section 12	*/
-time {
-	color: grey;
-	font-size: .75em;
-	display: inline-block;
-}
-
 .avatar {
 	display: inline-block;
+	margin-bottom: 3px;
 }
 
 .message {
@@ -148,5 +143,42 @@ time {
 	vertical-align: top;
 }
 
+time {
+	color: grey;
+	font-size: .75em;
+	display: inline-block;
+}
+
+
 /*TABS      */
 /*Section 13*/
+.tabular {
+	-webkit-padding-start: 5px;
+}
+
+.tabular li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.tabular a {
+	background-color: initial;
+	font-weight: bold;
+	color: blue;
+	padding: 5px;
+	border: 1px solid grey;
+	border-bottom: none;
+	border-bottom-right-radius: initial;
+	border-bottom-left-radius: initial;
+}
+
+#active_tab {
+	margin-bottom: -1px;
+	border-bottom: 1px solid white;
+}
+
+.active_text {
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 5px;
+}
