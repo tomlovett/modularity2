@@ -6,7 +6,7 @@
 
 .h_spaced_child {
 	display: inline-block;
-	margin: 0px 20px;
+	margin: 20px;
 	text-align: initial;
 	vertical-align: top;
 }
@@ -14,8 +14,7 @@
 /*VERTICALLY SPACED*/
 /*Section 7        */
 .v_align_parent {
-	height: 300px;
-	line-height: 300px;
+	padding: 50px 0px;
 }
 
 .v_align_child {
