@@ -136,16 +136,17 @@ a, button, input {
 time {
 	color: grey;
 	font-size: .75em;
+	display: inline-block;
 }
 
 .avatar {
-	float: left;
-	overflow: hidden;
+	display: inline-block;
 }
 
 .message {
-	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
 }
 
-p {
-}
+/*TABS      */
+/*Section 13*/
