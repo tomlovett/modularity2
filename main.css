@@ -38,11 +38,22 @@
 
 /*BUTTONS*/
 /*Sect 9 */
-a, button, input {
-	text-decoration: none;
+.button_coloring {
 	color: white;
 	background-color: #ff8080;
+}
+
+.inv_button_coloring {
+	color: #ff8080;
+	background-color: white;
+}
+
+.rounded_edges {
 	border-radius: 8px;
+}
+
+a, button, input {
+	text-decoration: none;
 	display: inline-block;
 	text-align: center;
 	padding: 10px 40px;
@@ -79,9 +90,8 @@ a, button, input {
 }
 
 .navigation a:hover {
-	background-color: white;
 	color: #ff8080;
-	text-decoration: initial;
+	background-color: white;
 }
 
 .navigation {
@@ -99,21 +109,11 @@ a, button, input {
 /*Section 11*/
 .pagination {
 	-webkit-padding-start: inherit;
-	float: left;
 }
 
-.pagination a {
-	background-color: inherit;
-	color: #ff8080;
-	border-bottom: 3px solid #ff8080;
-	border-radius: initial;
-	width: 25px;
-	padding: 0px 0px 5px 0px;
-}
-
-.pagination .button {
-	border-bottom: none;
+.pagination_button {
 	width: 50px;
+	padding: initial;
 }
 
 .pagination li {
@@ -121,13 +121,18 @@ a, button, input {
 	margin: 0px 3px;
 }
 
-.pagination span {
-	display: inline-block;
+.pagination_formatting {
+	width: 25px;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 3px solid #ff8080;
+}
+
+.pagination_active_page {
 	text-align: center;
+	display: inline-block;
 	color: lightgrey;
 	width: 25px;
 	border-bottom: 3px solid lightgrey;
-	padding: 0px 0px 5px 0px;
 }
 
 /*COMMENT STREAM*/
@@ -160,10 +165,13 @@ time {
 	margin: 0px 5px;
 }
 
-.tabular a {
-	background-color: initial;
-	font-weight: bold;
+.tab_coloring {
 	color: blue;
+	background-color: white;
+}
+
+.tab_formatting {
+	font-weight: bold;
 	padding: 5px;
 	border: 1px solid grey;
 	border-bottom: none;
